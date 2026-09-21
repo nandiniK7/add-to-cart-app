@@ -1,33 +1,43 @@
-Add to Cart App
+# Add to Cart App
 
-This is a React-based shopping cart application built using the Fake Store API. Users can view products, add items to the cart, view cart items inside a modal, and remove products from the cart.
+A React shopping-cart interface built with the Fake Store API. Users can browse products, add them to a cart, and manage cart contents through a modal view.
+
+## Overview
+
+This project focuses on cart interaction logic rather than a full e-commerce system. Product data is fetched from the Fake Store API, while cart interactions are handled on the client side.
 
 ## Features
 
-- Fetch products from Fake Store API
-- Display product image, title, and price
-- Add products to cart
-- Prevent duplicate cart items
-- Alert message for duplicate products
-- Dynamic cart item count in navbar
-- Cart modal to view added products
-- Remove products from cart
-- Responsive design for desktop and mobile
-- Clean UI using Tailwind CSS
+- Fetch and display products from the Fake Store API
+- Add products to the cart with duplicate-item prevention
+- Dynamic cart item count
+- Cart modal to view and remove products
+- Responsive interface built with Tailwind CSS
 
+## Tech Stack
 
-## Technologies Used
-
-- React JS
-- JavaScript
+- React
 - Tailwind CSS
 - Fake Store API
 
+## How It Works
 
-## How to Run
+Products are fetched from the Fake Store API and displayed in the application. When a user adds a product, the cart state is updated while preventing duplicate items. The cart count updates dynamically, and the modal provides an overview of selected products with the option to remove them.
 
-1. Clone the repository
-2. Install dependencies
+## Getting Started
 
-```bash
+1. Clone the repository:
+
+``bash 
+git clone https://github.com/nandiniK7/add-to-cart-app.git 
+
+### Install dependencies:
 npm install
+
+### Run the development server:
+npm run dev
+
+
+### What I Learned
+
+This project strengthened my understanding of React component-based development, shared UI state, cart interaction logic, and working with data from an external API.
